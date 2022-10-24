@@ -34,10 +34,11 @@ body {
   display: table-cell;
   vertical-align: middle;
   background: linear-gradient(
-    180deg,
-    hsl(237 75% 66%) 0%,
-    hsl(240 73% 65%) 100%
-  );
+      180deg,
+      hsl(237 75% 66%) 0%,
+      hsl(240 73% 65%) 100%
+    )
+    no-repeat center center fixed;
 }
 section {
   background-color: white;
@@ -80,10 +81,10 @@ article h1 {
 }
 .desktop-image {
   position: absolute;
-  top: 10rem;
-  left: 36rem;
+  top: 9rem;
+  left: -9rem;
   z-index: 1;
-  width: 110%;
+  width: 120%;
 }
 .box-shadow {
   position: absolute;
