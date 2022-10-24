@@ -59,6 +59,16 @@ article {
 article h1 {
   font-size: 3rem;
   color: var(--Very-dark-desaturated-blue);
+  margin-bottom: 2rem;
+}
+article {
+  padding: 2.25re 2.25rem 4.5rem 2.25rem;
+  margin-right: 0;
+}
+article h1 {
+  color: var(--Very-dark-desaturated-blue);
+  margin-bottom: 1rem;
+  text-align: center;
 }
 .main-container {
   display: flex;
@@ -86,10 +96,86 @@ article h1 {
   top: 20.5rem;
   z-index: 2;
 }
-.accordian {
+.accordion {
   font-size: 1.4rem;
   width: 35rem;
   border-bottom: 1px solid var(--Light-grayish-blue);
+}
+.accordion label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--Very-dark-grayish-blue);
+  font-weight: 500;
+  padding: 1.5rem 0 1.5rem 0;
+}
+.accordion p {
+  font-size: 1.2rem;
+  color: var(--Dark-grayish-blue);
+}
+.accordion:hover label {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: var(--Soft-red);
+}
+.accordion input {
+  display: none;
+}
+.accordion-content {
+  display: none;
+}
+.active .accordion-content {
+  display: block;
+  height: auto;
+  padding-bottom: 20px;
+}
+.active label {
+  font-weight: 700;
+}
+.active img {
+  transform: scaleY(-1);
+}
+@media only screen and (max-width: 1000px) {
+  section {
+    margin: 150px 20px 20px 20px;
+    min-width: 32rem;
+    max-width: 60rem;
+    width: 100%;
+    min-height: 54rem;
+    grid: 11rem max-content/ auto;
+  }
+  .image-container {
+    overflow: visible;
+  }
+  .desktop-image {
+    top: -10.8rem;
+    left: 50%;
+    width: 24rem;
+    transform: translateX(-50%);
+  }
+  .box-shadow {
+    left: 50%;
+    top: 0rem;
+    transform: translateX(-50%);
+  }
+  .box {
+    display: none;
+  }
+  .accordion {
+    width: auto;
+    margin: 0 auto;
+    min-width: 28rem;
+    max-width: 45rem;
+  }
+  .accordion label {
+    font-size: 1.3rem;
+    padding: 1.7rem 0 1.5rem 0;
+  }
+  .active .accordion-content {
+    padding-bottom: 15px;
+  }
 }
 
 .attribution {
