@@ -30,15 +30,14 @@ html {
 }
 
 body {
+  font-family: "kumb Sans", sans-serif;
   display: table-cell;
   vertical-align: middle;
   background: linear-gradient(
-      180deg,
-      hsl(237 75% 66%) 0%,
-      hsl(240 73% 65%) 100%;
-    )
-    no-repeat center center fixed;
-  font-family: var(--font);
+    180deg,
+    hsl(237 75% 66%) 0%,
+    hsl(240 73% 65%) 100%
+  );
 }
 
 .attribution {
