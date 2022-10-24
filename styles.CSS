@@ -80,10 +80,10 @@ article h1 {
 }
 .desktop-image {
   position: absolute;
-  top: 7rem;
-  left: -9rem;
+  top: 10rem;
+  left: 36rem;
   z-index: 1;
-  width: 120%;
+  width: 110%;
 }
 .box-shadow {
   position: absolute;
@@ -150,8 +150,8 @@ article h1 {
     overflow: visible;
   }
   .desktop-image {
-    top: -10.8rem;
-    left: 50%;
+    top: -45rem;
+    left: -59rem;
     width: 24rem;
     transform: translateX(-50%);
   }
