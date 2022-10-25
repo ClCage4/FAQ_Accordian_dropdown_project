@@ -80,7 +80,6 @@ article h1 {
   overflow: hidden;
 }
 .desktop-image {
-  position: absolute;
   top: 9rem;
   left: -9rem;
   z-index: 1;
